@@ -126,7 +126,7 @@ MonoBehaviour:
   explosion: {fileID: 0}
   whatIsEnemies:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
   bounciness: 0
   useGravity: 0
   explosionDamage: 0

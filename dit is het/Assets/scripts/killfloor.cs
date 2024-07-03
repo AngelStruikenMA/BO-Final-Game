@@ -8,6 +8,6 @@ public class damage1 : MonoBehaviour
   
     private void OnCollisionEnter(Collision collision)
     {
-       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

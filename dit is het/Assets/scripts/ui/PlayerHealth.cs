@@ -65,8 +65,7 @@ public class PlayerHealth : MonoBehaviour
     health -= damage;
     if (health < 0)
     {
-        Destroy(gameObject);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
     lerpTimer = 0f;
   }
